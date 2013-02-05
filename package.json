@@ -4,38 +4,35 @@
   "description": "Browserify compliant version of google analytics",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/Raynos/ga-browserify.git",
+  "repository": "git://github.com/Colingo/ga-browserify.git",
   "main": "index",
-  "homepage": "https://github.com/Raynos/ga-browserify",
+  "homepage": "https://github.com/Colingo/ga-browserify",
   "contributors": [
     {
       "name": "Raynos"
     }
   ],
   "bugs": {
-    "url": "https://github.com/Raynos/ga-browserify/issues",
+    "url": "https://github.com/Colingo/ga-browserify/issues",
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
-    "node-uuid": "~1.4.0",
-    "global": "~0.1.5"
   },
   "devDependencies": {
     "tape": "~0.2.2",
     "browserify": "https://github.com/raynos/node-browserify/tarball/master",
-    "testem": "~0.2.55"
+    "testem": "~0.2.56"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/Raynos/ga-browserify/raw/master/LICENSE"
+      "url": "http://github.com/Colingo/ga-browserify/raw/master/LICENSE"
     }
   ],
   "scripts": {
     "test": "node ./test",
     "build": "browserify test/index.js -o test/static/bundle.js",
-    "testem": "testem",
-    "postinstall": "npm dedup"
+    "testem": "testem"
   },
   "testling": {
     "files": "test/index.js",
