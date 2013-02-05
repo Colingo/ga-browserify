@@ -1,6 +1,6 @@
 {
   "name": "ga-browserify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browserify compliant version of google analytics",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
